@@ -1,9 +1,9 @@
 # hakka-sticker-downloader
-make some hakka sticker from line
+make some hakka sticker from Line
 
 ## require
 * requests
-* BeautifulSopu
+* BeautifulSoup
 
 ## future
 now it's just for static sticker and animation sticker  
