@@ -3,7 +3,7 @@ make some hakka sticker from Line
 
 ## require
 * requests
-* BeautifulSoup
+* BeautifulSoup4
 
 ## future
 now it's just for static sticker and animation sticker  
