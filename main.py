@@ -19,7 +19,7 @@ def download(url):
         elif data_preview['type'] == 'animation':
             pic_url = data_preview['animationUrl']
         
-        pic_url = pic_url[:pic_url.find(';')]
+        # pic_url = pic_url[:pic_url.find(';')]
         print(pic_url, end='...')
         pic_res = requests.get(pic_url)
         with open(os.path.join(title, '%s_%s.png' % (data_preview['id'], data_preview['type'])), 'wb') as pic_file:
